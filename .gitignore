@@ -1,0 +1,54 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C/C++/native extensions (just in case)
+*.so
+*.dylib
+*.dll
+
+# Virtual envs / tools
+.venv/
+venv/
+.env
+.env.*
+# uv typically uses .venv; keep lockfile tracked
+.uv/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs & caches
+*.log
+.cache/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Type-checker caches
+.mypy_cache/
+.pytype/
+.pyright/
+
+# Editors/OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Data & outputs
+data/
+!data/.gitkeep
+outputs/
+checkpoints/
+runs/
+
+# Jupyter
+.ipynb_checkpoints/
